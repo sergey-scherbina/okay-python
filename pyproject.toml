@@ -1,0 +1,21 @@
+[project]
+name = "okay-effects"
+version = "0.1.0"
+description = "Algebraic effects for Python, typed, on generators: capabilities, handlers, the kernel's protocol, middleware, async, steps over okay's wire"
+readme = "README.md"
+license = "Apache-2.0"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/sergey-scherbina/okay-python"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["okay_effects"]
+
+[tool.mypy]
+strict = true
