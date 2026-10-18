@@ -1,8 +1,8 @@
 # okay-python
 
 Algebraic effects for Python, **typed**, on generators: the design of
-[okay](https://github.com/sergey-scherbina/okay) (Scala 3) and
-[okay-go](https://github.com/sergey-scherbina/okay-go), in Python.
+[okay](https://github.com/okay-effects/okay) (Scala 3) and
+[okay-go](https://github.com/okay-effects/okay-go), in Python.
 
 - **A handler makes a capability and hands it to its body.** The body performs
   through it: `ok = yield from inventory.reserve(item)` — plain Python, `if`,
